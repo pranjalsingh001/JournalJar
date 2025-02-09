@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check and Apply Saved Dark Mode Preference
     if (localStorage.getItem('darkMode') === 'enabled') {
         body.classList.add('dark-mode');
-        darkModeBtn.innerHTML = '<i class="fas fa-sun"></i> Light Mode';
+        darkModeBtn.innerHTML = '<i class="fas fa-sun"></i> ig';
     }
 
     // Toggle Dark Mode
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (body.classList.contains('dark-mode')) {
             localStorage.setItem('darkMode', 'enabled');
-            darkModeBtn.innerHTML = '<i class="fas fa-sun"></i> Light Mode';
+            darkModeBtn.innerHTML = '<i class="fas fa-sun"></i> ig';
         } else {
             localStorage.setItem('darkMode', 'disabled');
             darkModeBtn.innerHTML = '<i class="fas fa-moon"></i> Dark Mode';
