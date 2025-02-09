@@ -32,9 +32,9 @@
             <div class="col-md-9 main-content">
                 
                 <div class="journal-header">
-                    <input type="text" id="entry-title" placeholder="Entry Title">
+                    <input type="text" id="entry-title-1" placeholder="Entry Title">
                     <div class="tag-section">
-                        <input type="text" id="tag-input" placeholder="Add Tags">
+                        <input type="text" id="tag-input-1" placeholder="Add Tags">
                         <div id="tag-container"></div>
                     </div>
                 </div>
@@ -47,21 +47,21 @@
 
 
         <div class="tag-section">
-            <input type="text" id="tag-input" placeholder="Add tags (press Enter)">
+            <input type="text" id="tag-input-2" placeholder="Add tags (press Enter)">
             <div id="tag-container"></div>
         </div>
 
-        <button id="save-entry">Save Entry</button>
-        <button id="view-entries">View Entries</button>
+        <button id="save-entry-1">Save Entry</button>
+        <button id="view-entries-1">View Entries</button>
     </section>
 
     <section class="entries">
         <h2>Journal Entries</h2>
-        <input type="text" id="search-entries" placeholder="Search entries...">
+        <input type="text" id="search-entries-modal" placeholder="Search entries...">
         <div id="entries-list"></div>
     </section>
 
-    <div class="modal" id="entriesModal">
+    <div class="modal" id="entriesModal1">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <h2>Your Journal Entries</h2>
@@ -70,8 +70,8 @@
     </div>
 
                 <div class="journal-actions">
-                    <button id="save-entry" class="btn btn-primary">Save Entry</button>
-                    <button id="view-entries" class="btn btn-secondary">View Entries</button>
+                    <button id="save-entry-2" class="btn btn-primary">Save Entry</button>
+                    <button id="view-entries-2" class="btn btn-secondary">View Entries</button>
                 </div>
                 
                 <div class="dark-mode-toggle text-center toggle">
@@ -81,7 +81,7 @@
                 </div>
 
                 <!-- Entries Modal -->
-                <div class="modal fade" id="entriesModal" tabindex="-1" aria-labelledby="entriesModalLabel">
+                <div class="modal fade" id="entriesModal2" tabindex="-1" aria-labelledby="entriesModalLabel">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
